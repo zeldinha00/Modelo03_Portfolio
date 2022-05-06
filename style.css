@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #a09038;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+ul{
+    list-style: none;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    background: url(/bg.jpg) no-repeat center center fixed ;
+    background-size: cover;
+}
+header img{
+    width: 150px;
+}
+
+header div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0px 30px 5px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li{
+    padding-right: 20px;
+}
+header ul li a{
+    transition: 200ms;
+}
+
+header ul li a:hover{
+    color: #f0d853;
+}
+
+
+.container {
+    text-align: center;
+}
+
+.container .name h1{
+    font-size: 60px;
+    padding-bottom: 5px;
+    color: aliceblue;
+}
+
+.container .name h5{
+    font-size: 25px;
+    font-weight: 200;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    padding-bottom: 30px;
+    letter-spacing: 15px;
+}
+
+#about  {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form p{
+    padding-bottom: 10px;
+}
+
+.form input {
+    width: 50%;
+    padding: 5px 10px;
+}
+
+.form button {
+    width: 15%;
+    padding: 5px 10px;
+    background-color: #a09717;
+    color: #464646;
+    font-weight: 600;
+    cursor: pointer;
+}
